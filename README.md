@@ -20,7 +20,6 @@ Make calls to another online user from a ReactJS web app.
 3. WebRTC [PeerJS](https://peerjs.com/)
 4. UI Framework [Material-UI](https://material-ui.com/)
 5. Database [Firebase](https://firebase.google.com/)
-> [ReactNativeWeb??](https://github.com/necolas/react-native-web) could be a possibility?
 
 ## Available Scripts
 
