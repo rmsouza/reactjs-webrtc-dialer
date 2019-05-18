@@ -1,4 +1,4 @@
-### Dialer Web App Based on ReactJS and WebRTC
+# Dialer Web App Based on ReactJS and WebRTC
 
 Make calls to another online user from a ReactJS web app.
 
