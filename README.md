@@ -4,14 +4,14 @@ Make calls to another online user from a ReactJS web app.
 
 ## Requirements
 
--[ ] The app should allow user identification by **Name** and **Email Address**.
--[ ] The app should allow the user to find other online users on a contacts list.
--[ ] The app should allow the user to start an audio call to another user available on the contact list.
--[ ] The app should allow the user to start a video call to another user available on the contact list.
--[ ] The app should allow the user to enable/disable the video during the call.
--[ ] The app should keep a history of calls and allow the user to check whenever he wants. 
--[ ] The app should allow the user who is receiving the call to accept or deny.
--[ ] The app should play a sound during the call.
+- [ ] The app should allow user identification by **Name** and **Email Address**.
+- [ ] The app should allow the user to find other online users on a contacts list.
+- [ ] The app should allow the user to start an audio call to another user available on the contact list.
+- [ ] The app should allow the user to start a video call to another user available on the contact list.
+- [ ] The app should allow the user to enable/disable the video during the call.
+- [ ] The app should keep a history of calls and allow the user to check whenever he wants. 
+- [ ] The app should allow the user who is receiving the call to accept or deny.
+- [ ] The app should play a sound during the call.
 
 ## Technologies
 
