@@ -19,7 +19,7 @@ Make calls to another online user from a ReactJS web app.
 2. Redux (??)
 3. WebRTC [PeerJS](https://peerjs.com/)
 4. UI Framework [Material-UI](https://material-ui.com/)
-5. Database [Firebase](https://firebase.google.com/)
+5. Database [Firebase ??](https://firebase.google.com/)
 
 ## Available Scripts
 
