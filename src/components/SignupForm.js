@@ -1,5 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
+import Button from '@material-ui/core/Button'
+import TextField from '@material-ui/core/TextField'
 import PropTypes from 'prop-types'
 
 class SignupForm extends Component {
@@ -19,32 +21,60 @@ class SignupForm extends Component {
   }
 
   render() {
-    const from = { pathname: "/contacts" };
+    const { classes } = this.props
+    const from = { pathname: "/contacts" }
     const { redirectToContacts } = this.state
 
     if (redirectToContacts) return <Redirect to={from} />
 
     return (
-      <div style={wrapperStyle}>
-        <form onSubmit={this.onSubmit} style={formStyle}>
-          <input placeholder="Name" name="name" onChange={this.onChange} value={this.state.name} />
-          <input placeholder="Email" name="email" onChange={this.onChange} value={this.state.email} />
-          <button className="common-button">Enter</button>
+      <div style={styles.wrapper}>
+        <form style={styles.form}>
+          <TextField
+            id="outlined-name"
+            label="Name"
+            name="name"
+            value={this.state.name}
+            onChange={this.onChange}
+            margin="normal"
+            variant="outlined"
+            fullWidth={true}
+          />
+
+          <TextField
+            id="outlined-name"
+            label="Email"
+            name="email"
+            value={this.state.email}
+            onChange={this.onChange}
+            margin="normal"
+            variant="outlined"
+            fullWidth={true}
+          />
+
+          <Button size="large" onClick={this.onSubmit} variant="contained" color="primary" fullWidth={true}>
+            Enter
+          </Button>
         </form>
       </div>
     )
   }
 }
 
-const wrapperStyle = {
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  flexDirection: 'column',
-}
-
-const formStyle = {
-  width: '50vw'
+const styles = {
+  wrapper: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'column',
+  },
+  form: {
+    width: '50%',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'column',
+  }
 }
 
 export default SignupForm;
