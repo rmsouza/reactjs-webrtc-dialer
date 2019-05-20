@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Signup from './components/Signup';
 import Contacts from './components/Contacts';
+import Call from './components/Call';
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Router>
           <Route exact path="/" component={Signup} />
           <Route path="/contacts" component={Contacts} />
+          <Route path="/call" component={Call} />
         </Router>
       </div>
     </div>

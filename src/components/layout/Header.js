@@ -21,12 +21,4 @@ function Header() {
   );
 }
 
-const headerStyle = {
-  padding: '20px',
-  backgroundColor: '#ff2200',
-  color: '#ffffff',
-  textAlign: 'center',
-  marginBottom: '15px'
-}
-
 export default Header
