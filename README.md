@@ -16,9 +16,10 @@ Make calls to another online user from a ReactJS web app.
 ## Technologies
 
 1. ReactJS
-2. WebRTC (PeerJS ??)
-3. UI Framework (Native Base ?)
-4. Database (Firebase ?)
+2. Redux (??)
+3. WebRTC [PeerJS](https://peerjs.com/)
+4. UI Framework [Material-UI](https://material-ui.com/)
+5. Database [Firebase ??](https://firebase.google.com/)
 
 ## Available Scripts
 
